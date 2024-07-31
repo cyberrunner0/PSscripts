@@ -50,4 +50,4 @@ $referenceUserGroups = Get-UserGroups -username $referenceUser
 # Set groups to the target user
 Set-UserGroups -username $targetUser -groups $referenceUserGroups
 
-Write-Host "Groups from $referenceUser have been copied to $targetUser."
+Write-Host "Groups $referenceUserGroups from $referenceUser have been copied to $targetUser."
